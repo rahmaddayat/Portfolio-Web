@@ -14,6 +14,11 @@ Ini adalah proyek portofolio web pribadi yang menampilkan keterampilan, pengalam
 - HTML, CSS, JavaScript
 
 ## Cara Menjalankan
+
+#Link Website
+https://rahmaddayat.github.io/Portfolio-Web/
+
+#Clone Local Repository
 1. Clone repository:
    ```sh
    git clone https://github.com/devryonn/Portfolio-Web.git
