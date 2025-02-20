@@ -1,6 +1,10 @@
 # Portfolio Web
 
-Ini adalah proyek portofolio web pribadi yang menampilkan keterampilan, pengalaman, dan proyek yang telah diselesaikan. Proyek ini dibangun dengan teknologi web modern untuk menciptakan tampilan yang responsif dan menarik.
+## Deskripsi Singkat
+
+Rahmad Hidayatullah Tsunami (2308107010051)
+
+Ini adalah proyek portofolio web pribadi yang menampilkan keterampilan, pengalaman, dan proyek yang telah diselesaikan. Proyek ini dibangun tugas praktikum mata kuliah pemograman berbasis web.
 
 ## Fitur
 - Desain responsif
