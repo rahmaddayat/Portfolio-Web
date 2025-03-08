@@ -100,7 +100,6 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("coffee.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
