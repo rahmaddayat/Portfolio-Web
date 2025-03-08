@@ -131,13 +131,18 @@ body {
 .hero .hero-image {
   margin-top: 3rem;
   z-index: 1;
-  /* border: solid; */
+  width: 500%;
+  max-width: 600px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover; 
 }
 
 .hero .hero-image img {
-  width: 500px;
-  height: auto;
+  width: 100%;
 }
+
 
 .hero .content h2 {
   font-size: 2.3rem;
@@ -242,19 +247,20 @@ body {
   grid-template-columns: 1fr 2fr;
   margin-top: 10rem;
   padding-top: 5rem;
+  gap:   2rem;
 }
 
 .resume .profile {
   background-color: #1d1d1d;
-  /* width: 30%; */
   height: auto;
   border: solid;
   justify-content: center;
   margin: 1.2rem;
   padding: 10px;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: center;
 }
 
 .resume .right-profile-wrap {
@@ -286,7 +292,6 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  /* border: solid blue; */
 }
 
 .resume .right-profile .tl-resume {
@@ -437,7 +442,7 @@ body {
 }
 
 .submit button:hover {
-  background-color: var(--primary); /* Warna saat hover */
+  background-color: var(--primary); 
   background-color: rgb(95, 0, 0);
   transform: scale(1.05);
 }
@@ -482,6 +487,27 @@ body {
   }
 }
 
+@media (max-width: 1024px) {
+  .resume {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .resume .right-profile-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .resume img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .resume h2 {
+    font-size: 22px;
+  }
+
+}
+
 /* Tablet */
 @media (max-width: 768px) {
   html {
@@ -509,7 +535,6 @@ body {
   .navbar .navbar-nav a {
     color: #cccaca;
     display: block;
-    /* border: solid blue; */
     margin: 0;
     padding: 1rem;
     font-size: 2rem;
@@ -528,4 +553,5 @@ body {
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.5);
   }
+  
 }
