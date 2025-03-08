@@ -2,7 +2,9 @@
 const navBarNav = document.querySelector('.navbar-nav');
 
 // click hamburger-menu
-document.querySelector('#hamburger-menu').onclick = () =>{
+document.querySelector('#hamburger-menu').onclick = (e) =>{
+    e.preventDefault();
+    
     navBarNav.classList.toggle('active')
 }
 
